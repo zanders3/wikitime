@@ -1,0 +1,52 @@
+Aug 14, 2012 2:17:52 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:52	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/	-	200	-	0	13	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	-
+Aug 14, 2012 2:17:52 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:52	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/labels.js	-	200	-	0	21	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/
+Aug 14, 2012 2:17:52 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:52	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/jquery.js	-	200	-	0	21	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/
+Aug 14, 2012 2:17:52 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:52	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/layout.css	-	200	-	0	21	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/
+Aug 14, 2012 2:17:52 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:52	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/unilogo.gif	-	200	2778	0	1	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/
+Aug 14, 2012 2:17:53 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:53	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/favicon.ico	-	200	22382	0	1	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/search	Christopher%20Columbus	200	-	0	3	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/jquery.history.js	-	200	-	0	5	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_js/timeline-api.js	-	200	-	0	2	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/jquery-ui.js	-	200	-	0	10	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline.js	-	200	-	0	8	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timelinebubble.js	-	200	-	0	2	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/jquery-ui.css	-	200	-	0	4	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/wikitime.js	-	200	-	0	13	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_ajax/simile-ajax-api.js	-	200	-	0	2	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_ajax/simile-ajax-bundle.js	-	200	-	0	3	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_ajax/scripts/signal.js	1	200	-	0	3	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_ajax/styles/graphics.css	-	200	-	0	3	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_js/timeline-bundle.js	-	200	-	0	3	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_js/scripts/l10n/en/timeline.js	-	200	204	0	4	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_js/scripts/l10n/en/labellers.js	-	200	421	0	4	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_ajax/scripts/signal.js	2	200	-	0	10	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_js/timeline-bundle.css	-	200	-	0	2	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_js/images/copyright-vertical.png	-	200	1695	0	2	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/static/timeline/timeline_js/images/progress-running.gif	-	200	1002	0	3	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
+Aug 14, 2012 2:17:55 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2012-08-14	14:17:55	0:0:0:0:0:0:0:1%0	-	-	5000	GET	/api/search/Christopher%20Columbus/0	-	200	-	0	137	http://localhost:5000	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8) AppleWebKit/536.25 (KHTML,like Gecko) Version/6.0 Safari/536.25	http://localhost:5000/search?Christopher%20Columbus
