@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>WikiTime Search Results</title>
+		<meta name="description" content="WikiTime" />
+		<meta name="author" content="Alex Parker" />
+		<link rel="stylesheet" href="/static/jquery-ui.css" type="text/css"/>
+		<link rel="stylesheet" href="/static/layout.css" type="text/css"/>
+		<link rel="shortcut icon" href="static/favicon.ico"/>
+		<script src="/static/jquery.js"></script>
+		<script src="/static/labels.js"></script>
+		<script src="/static/jquery.history.js"></script>
+		<script src="/static/jquery-ui.js"></script>
+		<script>
+			Timeline_ajax_url="rootURL/static/timeline/timeline_ajax/simile-ajax-api.js";
+			Timeline_urlPrefix='rootURL/static/timeline/timeline_js/';       
+			Timeline_parameters='bundle=true';
+			var initialSearch;
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-29566416-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
+		<script src="/static/timeline/timeline_js/timeline-api.js" type="text/javascript"></script>
+		<script src="/static/timelinebubble.js"></script>
+		<script src="/static/timeline.js"></script>
+		<script src="/static/wikitime.js"></script>
+	</head>
+	<body>
+		<div id="header" class="clearfix">
+			<form id="searchForm">
+				<h1><a href="/">WikiTime</a></h1>
+				
+				<label class="input">
+					<span>Search</span>
+					<input type="text" id="keywords"/>
+				</label>
+				<input type="submit" value="Search" id="searchButton"/>
+				
+				<p><span id="resultCount">0</span> (<span id="time">0</span> seconds).</p>
+			</form>
+		</div>
+		<div id="timeline"></div>
+		<div id="timeSlider"></div>
+		<a href="#" id="prevPage">Prev Page</a>
+		<a href="#" id="nextPage">Next Page</a>
+		<div id="fromYear"></div>
+		<div id="toYear"></div>
+		<div id="noResults">No Results</div>
+		<div id="results"></div>
+		<div id="footer">Developed by <a href="http://www.3zanders.co.uk">Alex Parker</a> as part of a third year project at the <a href="http://www.soton.ac.uk">University of Southampton</a>. <a href="https://www.isurvey.soton.ac.uk/4587">Comments, feedback, suggestions?</a></div>
+		<div id="textSize"></div>
+	</body>
+</html>

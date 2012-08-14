@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: white;
+	font-family: Helvetica, Georgia, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+/* Form field labels */
+label {
+  margin: 5px 0;
+  background: white;
+  display: inline-block;
+}
+label span {
+  position: absolute;
+  padding: 5px;
+  margin-left: 3px;
+  color: #999;
+}
+label input {
+	display: inline-block;
+}
+label input, label textarea, label select {
+  position: relative;
+  margin: 0; padding: 6px;
+  border-width: 1px;
+  background: transparent;
+  font: inherit;
+}
+b {
+	font-weight:bold;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    label input, label textarea, label select { padding: 4px; }
+}
+/* Page Styles */
+input[type=submit]{
+	cursor: pointer;
+}
+body {
+	font-family: Helvetica, Georgia, sans-serif;
+	overflow-x: hidden;
+}
+h1 {
+	font-size:24pt;
+	font-family:Times New Roman;
+}
+h1 a {
+	color:black;
+}
+h1 a:hover {
+	text-decoration:none;
+}
+h2 {
+	font-size:14pt;
+}
+h3 {
+	font-weight:bold;
+	margin-bottom:10px;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+#header {
+	width:100%;
+	min-width:1100px;
+	padding:15px 0px;
+	background:whiteSmoke;
+	border-bottom:solid 1px #E5E5E5;
+}
+	#header h1 {
+		float:left;
+		margin:4px 30px 0px 15px;
+	}
+	#header label {
+		float:left;
+	}
+	#keywords {
+		width:500px;
+	}
+	#searchButton {
+		float:left;
+		height:27px;
+		margin:5px 0;
+		margin-left:5px;
+	}
+	#header p {
+		float:left;
+		margin-top:10px;
+		margin-left:25px;
+	}
+#timeline {
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+#timeSlider {
+	position:absolute;
+	left:120px;
+	right:120px;
+	bottom:40px;
+}
+	#fromYear, #toYear {
+		width: 50px;
+		text-align: center;
+		position:absolute;
+	}
+#nextPage {
+	position:absolute;
+	right:10px;
+	bottom:40px;
+}
+#prevPage {
+	position:absolute;
+	left:10px;
+	bottom:45px;
+}
+#indexContent {
+	margin:0 auto;
+	margin-top:100px;
+	width:390px;
+	text-align:center;
+}
+	#indexContent h1 {
+		font-size:32pt;
+	}
+	#indexContent div {
+		text-align:left;
+		margin-top:30px;
+	}
+	#search {
+		width:300px;
+	}
+	#indexContent label {
+		float:left;
+	}
+	#indexContent p {
+		margin-top:20px;
+	}
+#noResults {
+	position:absolute;
+	z-index:100;
+	top:300px;
+	width:100%;
+	text-align:center;
+}
+.wikilink {
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-right:15px;
+	float:right;
+	margin-top:20px;
+}
+.rating {
+	float:right;
+	width:145px;
+	margin-top:2px;
+}
+.rating li {
+	display:inline-block;
+	margin-left:-4px;
+}
+.rating a {
+	width:40px;
+	height:30px;
+	background:#E5E5E5;
+	border:1px solid lightgray;
+	display:block;
+	cursor:hand;
+}
+.rating a:hover {
+	background:whitesmoke;
+}
+.rating img {
+	margin-left:5px;
+}
+#textSize {
+	position: absolute;
+	visibility: hidden;
+	height:auto;
+	width:auto;
+}
+.examples {
+	width:100%;
+	left:0;
+	position:absolute;
+}
+.examples li {
+	margin:0 auto;
+	margin-top:8px;
+}
+.examples li a {
+	margin:8px;
+}
+.about {
+	position:absolute;
+	left:0px;
+	top:550px;
+	text-align:centre;
+	width:100%;
+	font-size:14px;
+}
+#footer {
+	position:absolute;
+	width:100%;
+	bottom:5px;
+	left:5px;
+	font-size:12px;
+	text-align:center;
+	color:gray;
+}
