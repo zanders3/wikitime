@@ -1,1 +1,1 @@
-java -jar Site.jar index
+web: java -jar Site.jar index
