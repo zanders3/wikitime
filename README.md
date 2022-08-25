@@ -9,3 +9,7 @@ More [details on my blog](http://3zanders.co.uk/2012/04/12/Wikitime/)
 
 ![Wikitime Timeline](wikitime_timeline.png)
 
+Software
+--------
+
+Likely Java 12 and used to run on the heroku Cedar-14 Stack which run on Ubuntu 14.04.
